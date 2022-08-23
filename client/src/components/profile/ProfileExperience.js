@@ -15,13 +15,16 @@ const ProfileExperience = ({
       <strong>Position: </strong> {title}
     </p>
     <p>
+      <strong>Location: </strong> {location}
+    </p>
+    <p>
       <strong>Description: </strong> {description}
     </p>
   </div>
 );
 
 ProfileExperience.propTypes = {
-  experience: PropTypes.array.isRequired,
+  experience: PropTypes.object.isRequired,
 };
 
 export default ProfileExperience;
