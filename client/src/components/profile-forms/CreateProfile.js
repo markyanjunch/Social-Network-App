@@ -225,7 +225,7 @@ const Createprofile = ({
   );
 };
 
-CreateProfile.propTypes = {
+Createprofile.propTypes = {
   createProfile: PropTypes.func.isRequired,
   getCurrentProfile: PropTypes.func.isRequired,
   profile: PropTypes.object.isRequired,
@@ -234,5 +234,5 @@ const mapStateToProps = (state) => ({
   profile: state.profile,
 });
 export default connect(mapStateToProps, { createProfile, getCurrentProfile })(
-  withRouter(CreateProfile)
+  withRouter(Createprofile)
 );
