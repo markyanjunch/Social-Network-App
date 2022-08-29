@@ -1,5 +1,5 @@
 # social-network-app
-A Social Network Website for Developers built with MERN Stack  
+A social network website for Developers built with MERN Stack  
 ## Demo 
 https://frozen-chamber-77332.herokuapp.com/  
 ## Supports
